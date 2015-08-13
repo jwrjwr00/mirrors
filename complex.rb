@@ -5,6 +5,7 @@
 # a complex number
 cc = Complex(3, 4)
 
+p Complex.polar(1, Math::PI/2)
 # when printed, it's shown as (‹a›+‹b› i)
 p cc                            # (3+4i)
 
